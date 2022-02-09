@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Big Brother</string>
+    <string name="project_name">Nombre del projecto</string>
+    <string name="new_project">Nuevo projecto</string>
+    <string name="project_id">Acronimo del projecto</string>\
+
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+</resources>

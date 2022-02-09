@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/item_board_column_name"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_8"
+        tools:text="TO DO 5" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/layout_margin_4"
+        android:id="@+id/item_board_column"
+        android:layout_width="350dp"
+        android:clipToPadding="false"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        tools:listitem="@layout/item_task" />
+
+</LinearLayout>

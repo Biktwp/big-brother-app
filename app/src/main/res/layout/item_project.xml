@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_item"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="@dimen/layout_margin_8">
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/item_project_name"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/item_project_height"
+        android:gravity="center_vertical"
+        tools:text="Las cosas del querer" />
+
+    <com.bigbrother.presentation.common.component.ProjectProgressBar
+        android:id="@+id/item_project_progress"
+        android:layout_width="@dimen/project_progress_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_8" />
+
+
+</LinearLayout>
